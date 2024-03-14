@@ -40,6 +40,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .left .menus li {
@@ -85,6 +86,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .right header {
@@ -112,6 +114,7 @@ header h1 {
     align-items: center;
     justify-content: center;
     padding: 50px 0;
+    flex-wrap: wrap;
 }
 
 .totalMember .box {
@@ -154,6 +157,7 @@ span {
     border-radius: 5px;
     margin-top: 30px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .leadership h1 {
@@ -164,6 +168,7 @@ span {
 table {
     border-spacing: 0;
     width: 95%;
+    overflow: scroll;
 }
 
 
@@ -210,6 +215,7 @@ tr td {
     gap: 10px;
     border-radius: 8px;
     box-shadow: 1px 1px 5px black;
+    flex-wrap: wrap;
 }
 
 .form-container form .user-input {
@@ -260,6 +266,7 @@ form button {
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
 
 .employee-container h3{
@@ -351,6 +358,7 @@ table button:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .form-container form {
@@ -363,6 +371,7 @@ table button:nth-child(2){
     gap: 15px;
     border-radius: 8px;
     box-shadow: 1px 1px 5px black;
+    flex-wrap: wrap;
 }
 
 .form-container form .user-input {
@@ -446,6 +455,7 @@ form button {
     border-radius: 5px;
     margin-top: 30px;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .profile-container img{
